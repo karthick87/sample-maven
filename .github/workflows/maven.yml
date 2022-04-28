@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Maven
+    - name: Set up Maven-3.5.4
       uses: stCarolas/setup-maven@v4
       with:
         maven-version: 3.5.4
