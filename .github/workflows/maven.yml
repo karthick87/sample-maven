@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Set up Maven-3.5.4
-      uses: stCarolas/setup-maven@v4
+      uses: telia-company/netcheck-actions@v4
       with:
         maven-version: 3.5.4    
     - name: Set up JDK 11
