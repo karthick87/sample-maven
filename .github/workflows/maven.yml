@@ -26,6 +26,8 @@ jobs:
     - name: Install and Set up Maven
       uses: ./.github/actions/setup-maven
 
-    # Build with Maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+    - name: Build, test and deploy to artifactory
+      uses: ./.github/actions/build-test-deploy
+      with:
+        artifactoryUser: "${{ secrets.TOCA_ARTIFACTORY_RW_USER }}"
+        artifactoryPassword: "${{ secrets.TOCA_ARTIFACTORY_RW_PASSWORD }}"
