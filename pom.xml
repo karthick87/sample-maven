@@ -17,12 +17,9 @@
 		<spring.version>5.1.5.RELEASE</spring.version>
 		<cglib.version>2.2.2</cglib.version>
 		<hibernate.version>5.4.1.Final</hibernate.version>
+	        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-	
-	<properties>
-           <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-           <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        </properties>
 
 	<dependencies>
 		<!-- Spring core & mvc -->
