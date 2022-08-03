@@ -9,6 +9,7 @@ on:
     paths-ignore:
       - '.github/**'
       - 'pom.xml'
+      - '.gitignore'
   pull_request:
     branches: [ "main" ]
 
