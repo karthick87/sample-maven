@@ -11,11 +11,11 @@ on:
         required: true
         default: "main"
       releaseVersion:
-        description: "Default version to use when preparing a release."
+        description: "New Release Version"
         required: true
         default: "1.0.3"
       developmentVersion:
-        description: "Default version to use for new local working copy."
+        description: "New Development Version"
         required: true
         default: "1.0.4-SNAPSHOT"
 
