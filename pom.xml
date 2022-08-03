@@ -135,4 +135,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+    <scm>
+        <connection>scm:git:https://github.com/karthick87/sample-maven.git</connection>
+        <url>scm:git:https://github.com/karthick87/sample-maven.git</url>
+        <developerConnection>scm:git:https://github.com/karthick87/sample-maven.git</developerConnection>
+        <tag>HEAD</tag>
+  </scm>	
 </project>
