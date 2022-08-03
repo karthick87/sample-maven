@@ -5,6 +5,19 @@ name: Maven Release
 
 on:
   workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to checkout during Release."
+        required: true
+        default: "main"
+      releaseVersion:
+        description: "Default version to use when preparing a release."
+        required: true
+        default: "1.0.3"
+      developmentVersion:
+        description: "Default version to use for new local working copy."
+        required: true
+        default: "1.0.4-SNAPSHOT"
 
 jobs:
   Build:
